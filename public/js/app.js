@@ -39,7 +39,6 @@ class ParentComponent extends React.Component {
     }
   
     getRandomColor() {
-      // Generate a random color
       return "#" + Math.floor(Math.random() * 16777215).toString(16);
     }
   }
